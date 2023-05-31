@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: #1e1e22;
+    color: #ffff;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    margin-top: 110px;
+    margin-bottom: 24px;
+}
+
+.btn-nav {
+    position: absolute;
+    width: 70px;
+    height: 25px;
+    left: 41%;
+    top: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.btn-nav .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 45px;
+    border-radius: 50px;
+    background: #1e1e22;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-nav .circle i {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.header .photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid transparent;
+    background: linear-gradient(#efc676, #ed5636, #633bbc) padding-box, linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+    margin-bottom: 8px;
+}
+
+.header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header span {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    color: #1e1e22;
+    text-decoration: none;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #efc676, #ed5636, #633bbc) border-box;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    width: 285px;
+    height: 45px;
+    box-sizing: border-box;
+    /* shadow_link */
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.25);
+    text-align: justify;
+}
+
+nav a i {
+    font-size: 1.4rem;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+nav a span {
+    font-weight: 500;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.social-footer {
+    margin-top: 24px;
+}
+
+.social-footer a {
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.15rem;
+    margin-right: 6px;
+}
