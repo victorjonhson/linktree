@@ -91,11 +91,31 @@ body.light {
 .header h2 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 125%;
 }
 
 .header span {
   font-size: 1.15rem;
   font-weight: 400;
+}
+
+.header span p {
+  font-weight: 400;
+  font-size: 0.95rem;
+  line-height: 125%;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.header span a {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header span a:hover {
+  color: #d39e33;
 }
 
 nav {
